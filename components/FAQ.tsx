@@ -13,22 +13,66 @@ interface FAQItemProps {
 
 const faqList: FAQItemProps[] = [
   {
-    question: "What do I get exactly?",
-    answer: <div className="space-y-2 leading-relaxed">Loreum Ipseum</div>,
+    question: "What is Steal?",
+    answer: (
+      <div className="space-y-2 leading-relaxed">
+        Steal is a browser extension that helps you discover and compare
+        products from small businesses, providing you with competitive
+        alternatives to offerings from large corporations.
+      </div>
+    ),
   },
   {
-    question: "Can I get a refund?",
+    question: "How does Steal work?",
     answer: (
       <p>
-        Yes! You can request a refund within 7 days of your purchase. Reach out
-        by email.
+        Once installed, Steal analyzes the products you view on large online
+        shopping platforms and suggests similar items from small businesses. It
+        allows these businesses to submit competitive offers, helping you find
+        unique and possibly better alternatives.
       </p>
     ),
   },
   {
-    question: "I have another question",
+    question: "Is Steal free to use?",
     answer: (
-      <div className="space-y-2 leading-relaxed">Cool, contact us by email</div>
+      <div className="space-y-2 leading-relaxed">
+        Yes, our browser extension is free for consumers. Our goal is to make
+        shopping from small businesses as easy and accessible as possible.
+      </div>
+    ),
+  },
+  {
+    question: "How can I install Steal?",
+    answer: (
+      <div className="space-y-2 leading-relaxed">
+        Steal can be installed via our website or through extensions/add-ons
+        store of your preferred browser. Follow the simple installation
+        instructions, and you&aposll be set up in no time.
+      </div>
+    ),
+  },
+  {
+    question:
+      "How does Steal ensure the quality of products from small businesses?",
+    answer: (
+      <div className="space-y-2 leading-relaxed">
+        We have a Quality Assurance process in place that evaluates products
+        from small businesses. Only those that meet our high standards receive a
+        Quality Assurance seal, ensuring that you receive only the best
+        products.
+      </div>
+    ),
+  },
+  {
+    question: "How can my business join Steal?",
+    answer: (
+      <div className="space-y-2 leading-relaxed">
+        Small businesses can sign up through our website to become part of
+        Steal&aposs network. After a brief verification and quality check, your
+        products will be eligible to be featured as competitive alternatives to
+        consumers.
+      </div>
     ),
   },
 ];
