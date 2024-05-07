@@ -12,15 +12,15 @@ import config from "@/config";
 // You are an excellent lawyer.
 
 // I need your help to write a simple Terms & Services for my website. Here is some context:
-// - Website: https://shipfa.st
-// - Name: ShipFast
-// - Contact information: marc@shipfa.st
-// - Description: A JavaScript code boilerplate to help entrepreneurs launch their startups faster
-// - Ownership: when buying a package, users can download code to create apps. They own the code but they do not have the right to resell it. They can ask for a full refund within 7 day after the purchase.
+// - Website: https://joinsteal.com
+// - Name: Steal
+// - Contact information: darrel@joinsteal.com
+// - Description: A browser extension that enhances online shopping by notifying users when similar products are available from preferred small businesses.
+// - Ownership: They can ask for a full refund within 7 day after the purchase.
 // - User data collected: name, email and payment information
 // - Non-personal data collection: web cookies
-// - Link to privacy-policy: https://shipfa.st/privacy-policy
-// - Governing Law: France
+// - Link to privacy-policy: https://joinsteal.com/privacy-policy
+// - Governing Law: United State
 // - Updates to the Terms: users will be updated by email
 
 // Please write a simple Terms & Services for my site. Add the current date. Do not add or explain your reasoning. Answer:
@@ -57,39 +57,52 @@ const TOS = () => {
           className="leading-relaxed whitespace-pre-wrap"
           style={{ fontFamily: "sans-serif" }}
         >
-          {`Last Updated: September 26, 2023
+          {`ChatGPT
+Terms of Service for Steal
 
-Welcome to ShipFast!
+Effective Date: May 3, 2024
 
-These Terms of Service ("Terms") govern your use of the ShipFast website at https://shipfa.st ("Website") and the services provided by ShipFast. By using our Website and services, you agree to these Terms.
+1. Introduction
 
-1. Description of ShipFast
+Welcome to Steal. These Terms of Service ("Terms") govern your use of our website located at https://joinsteal.com (the "Site") and our browser extension ("Service"), which enhances your online shopping experience by notifying you when similar products are available from preferred small businesses.
 
-ShipFast is a platform that offers a JavaScript code boilerplate to assist entrepreneurs in launching their startups more efficiently.
+2. Agreement to Terms
 
-2. Ownership and Usage Rights
+By using our Site and Service, you agree to be bound by these Terms. If you disagree with any part of the terms, then you do not have permission to access the Service.
 
-When you purchase a package from ShipFast, you gain the right to download and use the code provided for creating applications. You own the code you create but do not have the right to resell it. We offer a full refund within 7 days of purchase, as specified in our refund policy.
+3. Service Description
 
-3. User Data and Privacy
+Steal provides a browser extension that notifies users of alternative products available from small businesses. Our goal is to support smaller vendors while offering you great alternatives to your shopping queries.
 
-We collect and store user data, including name, email, and payment information, as necessary to provide our services. For details on how we handle your data, please refer to our Privacy Policy at https://shipfa.st/privacy-policy.
+4. User Accounts
 
-4. Non-Personal Data Collection
+When creating your account, you agree to provide accurate and complete information, including your name, email address, and payment details. You are responsible for maintaining the confidentiality of your account and password.
 
-We use web cookies to collect non-personal data for the purpose of improving our services and user experience.
+5. Purchases and Refunds
 
-5. Governing Law
+If applicable, any purchases made through our Service are subject to our refund policy. You can request a full refund within seven days of purchase, provided that you have not violated any of our terms.
 
-These Terms are governed by the laws of France.
+6. Collection of Information
 
-6. Updates to the Terms
+We collect personal data such as your name, email address, and payment information. We also use cookies to enhance your experience. For more details, please refer to our Privacy Policy at https://joinsteal.com/privacy-policy.
 
-We may update these Terms from time to time. Users will be notified of any changes via email.
+7. Intellectual Property
 
-For any questions or concerns regarding these Terms of Service, please contact us at marc@shipfa.st.
+The Service and its original content, features, and functionality are and will remain the exclusive property of Steal.
 
-Thank you for using ShipFast!`}
+8. Changes to Terms
+
+We reserve the right to modify or replace these Terms at any time. We will notify you of any changes by sending an email to the address you provided upon registration.
+
+9. Governing Law
+
+These Terms shall be governed and construed in accordance with the laws of the United States, without regard to its conflict of law provisions.
+
+10. Contact Us
+
+If you have any questions about these Terms, please contact us at darrel@joinsteal.com.
+
+By using our Service, you acknowledge that you have read and understood these Terms and agree to be bound by them.`}
         </pre>
       </div>
     </main>

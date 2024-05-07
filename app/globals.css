@@ -20,3 +20,14 @@ progress::-webkit-progress-value {
     @apply !capitalize;
   }
 }
+
+/* In globals.css */
+.bg-neutral-lighter {
+  --tw-bg-opacity: 1;
+  --n: 0.75 0.11 250; /* Even lighter */
+  background-color: var(--fallback-n, oklch(var(--n) / var(--tw-bg-opacity)));
+}
+
+.bg-neutralSilver {
+  background-color: #e1e1e1; /* Example light gray color */
+}

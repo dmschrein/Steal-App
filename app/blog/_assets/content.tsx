@@ -32,18 +32,18 @@ export const categories: categoryType[] = [
     titleShort: "Features",
     // The description of the category to display in the category page. Up to 160 characters.
     description:
-      "Here are the latest features we've added to ShipFast. I'm constantly improving our product to help you ship faster.",
+      "Here are the latest features we've added to Steal. I'm constantly improving our product to help you find deals that feel like steals.",
     // A short version of the description above, only displayed in the <Header /> on mobile. Up to 60 characters.
-    descriptionShort: "Latest features added to ShipFast.",
+    descriptionShort: "Latest features added to Steal.",
   },
   {
     slug: categorySlugs.tutorial,
     title: "How Tos & Tutorials",
     titleShort: "Tutorials",
     description:
-      "Learn how to use ShipFast with these step-by-step tutorials. I'll show you how to ship faster and save time.",
+      "Learn how to use Steal with these step-by-step tutorials. I'll show you how to save money and time.",
     descriptionShort:
-      "Learn how to use ShipFast with these step-by-step tutorials.",
+      "Learn how to use Steal with these step-by-step tutorials.",
   },
 ];
 
@@ -271,7 +271,7 @@ export const articles: articleType[] = [
         </section>
 
         <section>
-          <h3 className={styles.h3}>2. Add your credentials to ShipFast</h3>
+          <h3 className={styles.h3}>2. Add your credentials to Steal</h3>
           <p className={styles.p}>
             Copy the <span className={styles.codeInline}>API URL</span> and{" "}
             <span className={styles.codeInline}>API Key</span> from your

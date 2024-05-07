@@ -1,5 +1,5 @@
-import { categories, articles } from "./_assets/content";
-import CardArticle from "./_assets/components/CardArticle";
+import { categories } from "./_assets/content";
+//import CardArticle from "./_assets/components/CardArticle";
 import CardCategory from "./_assets/components/CardCategory";
 import config from "@/config";
 import { getSEOTags } from "@/libs/seo";
@@ -12,12 +12,12 @@ export const metadata = getSEOTags({
 });
 
 export default async function Blog() {
-  const articlesToDisplay = articles
-    .sort(
-      (a, b) =>
-        new Date(b.publishedAt).valueOf() - new Date(a.publishedAt).valueOf()
-    )
-    .slice(0, 6);
+  // const articlesToDisplay = articles
+  //   .sort(
+  //     (a, b) =>
+  //       new Date(b.publishedAt).valueOf() - new Date(a.publishedAt).valueOf()
+  //   )
+  //   .slice(0, 6);
   return (
     <>
       <section className="text-center max-w-xl mx-auto mt-12 mb-24 md:mb-32">
@@ -25,12 +25,12 @@ export default async function Blog() {
           The {config.appName} Blog
         </h1>
         <p className="text-lg opacity-80 leading-relaxed">
-          Learn how to ship your startup in days, not weeks. And get the latest
-          updates about the boilerplate
+          Learn why it&aposs important to shop small. And get the latest
+          updates about the browser extension
         </p>
       </section>
 
-      <section className="grid lg:grid-cols-2 mb-24 md:mb-32 gap-8">
+      {/* <section className="grid lg:grid-cols-2 mb-24 md:mb-32 gap-8">
         {articlesToDisplay.map((article, i) => (
           <CardArticle
             article={article}
@@ -38,7 +38,7 @@ export default async function Blog() {
             isImagePriority={i <= 2}
           />
         ))}
-      </section>
+      </section> */}
 
       <section>
         <p className="font-bold text-2xl lg:text-4xl tracking-tight text-center mb-8 md:mb-12">

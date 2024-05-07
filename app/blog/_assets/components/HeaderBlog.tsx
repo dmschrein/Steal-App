@@ -6,7 +6,7 @@ import { useSearchParams } from "next/navigation";
 import { Popover, Transition } from "@headlessui/react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/app/icon.png";
+import logo from "@/app/steal-logo.png";
 import config from "@/config";
 import { categories } from "../content";
 import ButtonSignin from "@/components/ButtonSignin";
@@ -234,10 +234,9 @@ const HeaderBlog = () => {
                 src={logo}
                 alt={`${config.appName} logo`}
                 className="w-8"
-                placeholder="blur"
                 priority={true}
-                width={32}
-                height={32}
+                width={40}
+                height={40}
               />
               <span className="font-extrabold text-lg">{config.appName}</span>
             </Link>
